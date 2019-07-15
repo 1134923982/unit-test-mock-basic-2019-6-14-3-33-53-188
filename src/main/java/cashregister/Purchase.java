@@ -4,6 +4,9 @@ public class Purchase {
 
     private Item[] items;
 
+    public Purchase() {
+    }
+
     public Purchase(Item[] items) {
 
         this.items = items;
